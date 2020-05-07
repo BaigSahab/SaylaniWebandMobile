@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Saylani Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row text-center">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="./img/Saylani logo.jpg" style="width: 50%;" />
+                <h2 style="color: #6B5ACD;">STUDENT REGISTERATION FORM</h2>
+            </div>
+
+        </div>
+    </div>
+    <br />
+    <form action="./success.html" method="post">
+        <div class="container-fluid form-body">
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    FIRST NAME :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" placeholder="Enter first name..." required maxlength="30"> (max 30 characters a-z A-Z)
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    LAST NAME :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" placeholder="Enter last name..." required maxlength="30"> (max 30 characters a-z A-Z)
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    DATE OF BIRTH :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <select id="days">
+
+                    </select>
+                    <select id="months">
+
+                    </select>
+                    <select id="years">
+
+                    </select>
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    EMAIL ID :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="email" placeholder="Enter email address..." required > 
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    MOBILE NUMBER :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" placeholder="Enter mobile number..." required maxlength="10"> (10 digit number)
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    Gender :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    Male <input type="radio" name="gender" value="Male">
+                    Female <input type="radio" name="gender" value="Female">
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    ADDRESS :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <textarea rows="4" cols="40" >
+
+                    </textarea>
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    CITY :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" placeholder="Enter city name..." required maxlength="30"> (max 30 character a-z A-Z)
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    PIN CODE :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" placeholder="Enter pin code..." required maxlength="6"> (6 digit number)
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    STATE :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" placeholder="Enter state name..." required maxlength="30"> (max 30 character a-z A-Z)
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    COUNTRY :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" required  placeholder="Enter country...">
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    HOBBIES :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    Drawing <input type="checkbox" name="hobby" value="drawing">
+                    Singing <input type="checkbox" name="hobby" value="singing">
+                    Dancing <input type="checkbox" name="hobby" value="dancing">
+                    Searching <input type="checkbox" name="hobby" value="searching">
+                    <br>
+                    Other <input type="checkbox" name="hobby" value="other">
+                    <input type="text">
+
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    QUALIFICATION :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text-center">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="width: 5%;">S.no</td>
+                            <td style="width: 17%;">Examination</td>
+                            <td style="width: 26%;">Board</td>
+                            <td style="width: 26%;">Percentage</td>
+                            <td style="width: 26%;">Year of Passing </td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" style="width: 100%;" maxlength="10"></td>
+                            <td><input type="text" style="width: 100%;" maxlength="2"></td>
+                            <td><input type="text" style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" style="width: 100%;" maxlength="10"></td>
+                            <td><input type="text" style="width: 100%;" maxlength="2"></td>
+                            <td><input type="text" style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" style="width: 100%;" maxlength="10"></td>
+                            <td><input type="text" style="width: 100%;" maxlength="2"></td>
+                            <td><input type="text" style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" style="width: 100%;" maxlength="10"></td>
+                            <td><input type="text" style="width: 100%;" maxlength="2"></td>
+                            <td><input type="text" style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>(10 character max)</td>
+                            <td>(upto 2 decimal)></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    COURSES<br>
+                    APPLIED FOR :
+                </div>
+
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    BCA <input type="radio" name="courses" value='bca'>
+                    B.Com <input type="radio" name="courses" value='bcom'>
+                    B.Sc <input type="radio" name="courses" value='bsc'>
+                    B.A <input type="radio" name="courses" value='ba'>
+                </div>
+
+
+            </div>
+            <br>
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+                
+            </div>
+        </div>
+    </form>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
