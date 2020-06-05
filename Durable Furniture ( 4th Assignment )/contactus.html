@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Durable Furnitures</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='css/font.css' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- dropdown -->
+<script src="js/jquery.easydropdown.js"></script>
+<!-- start menu -->
+<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: false,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+</script>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+<div class="container">
+			<div class="logo1">
+			<a href=index.html><img src="images/banner.png" alt="" width="490%" height="100%"></a></img>
+			</div>
+			<div class="clearfix"> </div>
+		<div class="clearfix"> </div>
+	</div>
+<div class="menu">
+	<div class="container">
+		<div class="menu_box">
+	     <ul class="megamenu skyblue">
+			<li class="active grid"><a class="color2" href="index.html">Home</a></li>
+			<li><a class="color10" href="products.html">Products</a>
+				<div class="megapanel">
+					<div class="row">
+						<div class="col1">
+							<div class="h_nav">
+								<h4>Furniture</h4>
+								<ul>
+									<li><a href="sofa.html">Seating / Sofas</a></li>
+									<li><a href="storage.html">Storage</a></li>
+									<li><a href="chair.html">Chairs</a></li>
+									<li><a href="table.html">Tables</a></li>
+									<li><a href="bed.html">Beds</a></li>
+								</ul>	
+							</div>							
+						</div>
+						<div class="col1">
+							<div class="h_nav">
+								<h4>Decor</h4>
+								<ul>
+									<li><a href="shelves.html">Wall Shelves</a></li>
+									<li><a href="clock.html">Clocks</a></li>
+									<li><a href="mirror.html">Mirror</a></li>
+									<li><a href="dd.html">Desk Decor</a></li>
+									<li><a href="ea.html">Ethnic Art</a></li>
+									<li><a href="wa.html">Wall Art</a></li>
+								</ul>	
+							</div>							
+						</div>
+						<div class="col2">
+							<div class="h_nav">
+								<h4>Trends</h4>
+								<ul>
+									<li class>
+										<div class="p_left">
+										   <img src="imgs/sofa/2.jpg" class="img-responsive" alt=""/>
+										</div>
+										<div class="p_right">
+											<h4><a href="sofa.html">Sofa Set</a></h4>
+											<span class="item-cat"><small><a href="sofa.html">Monarch 3 Seater Sofa</a></small></span>
+											<span class="price">Rs. 24,565</span>
+										</div>
+										<div class="clearfix"> </div>
+									</li>
+									<li>
+										<div class="p_left">
+										  <img src="imgs/table/6.jpg" class="img-responsive" alt=""/>
+										</div>
+										<div class="p_right">
+											<h4><a href="tables.html">Tables</a></h4>
+											<span class="item-cat"><small><a href="table.html">Eboney Leather Table</a></small></span>
+											<span class="price">Rs. 13,099</span>
+										</div>
+										<div class="clearfix"> </div>
+									</li>
+									<li>
+										<div class="p_left">
+										   <img src="imgs/chairs/3.jpg" class="img-responsive" alt=""/>
+										</div>
+										<div class="p_right">
+											<h4><a href="chair.html">Chairs</a></h4>
+											<span class="item-cat"><small><a href="frypans.html">Maud Arm Chair</a></small></span>
+											<span class="price">Rs. 4,899</span>
+										</div>
+										<div class="clearfix"> </div>
+									</li>
+								</ul>	
+							</div>												
+						</div>
+					  </div>
+					</div>
+			</li>
+			<li><a class="color5" href="compare.html">Compare</a></li>
+			<li><a class="color6" href="aboutus.html">About Us</a></li>
+			<li><a class="color7" href="contactus.html">Contact Us</a></li>
+			<li><a class="color8" href="feedback.html">Feedback</a></li>
+			<div class="clearfix"> </div>
+		 </ul>
+	  </div>
+</div>
+</div>
+<script>
+		function namee() {
+			var name = document.getElementById('name').value;
+			nameTest = "^[a-zA-Z\s ]+$";
+			var regname = new RegExp(nameTest);
+			if (!regname.test(name) || name.length < 4) {
+				document.getElementById("name").style.border = "1px solid #FF0000";
+				document.getElementById("ne").innerHTML = "<ul><li>Name Should be 4 Characters Long</li><li>No Numbers Allowed</li></ul>";
+				n = 1;
+			} else {
+			document.getElementById("name").style.border = "1px solid #5CFF26";
+			document.getElementById("ne").innerHTML = "";
+			n = 0;
+			}
+		}
+		function subb() {
+			var sub = document.getElementById('sub').value;
+			subTest = "[a-zA-Z0-9\s]+";
+			var regsub = new RegExp(subTest);
+			if (!regsub.test(sub)) {
+				document.getElementById("sub").style.border = "1px solid #FF0000";
+				document.getElementById("se").innerHTML = "Please Fill This Field";
+				s = 1;
+			} else {
+			document.getElementById("sub").style.border = "1px solid #5CFF26";
+			document.getElementById("se").innerHTML = "";
+			s = 0;
+			}
+		}
+		function msgg() {			
+			var msg = document.getElementById('msg').value;
+			msgTest = "[a-zA-Z\s]+";
+			var regmsg = new RegExp(msgTest);
+			if (!regmsg.test(msg)) {
+				document.getElementById("msg").style.border = "1px solid #FF0000";
+				document.getElementById("me").innerHTML = "Please Fill This Field";
+				m = 1;
+			} else {
+			document.getElementById("msg").style.border = "1px solid #5CFF26";
+			document.getElementById("me").innerHTML = "";
+			m = 0;
+			}
+		}	
+		function emaill() {		
+			var email = document.getElementById('email').value;
+			emailTest = "^[_.0-9a-z-]+@([0-9a-z][0-9a-z_-]+.)+[a-z]{2,4}$";
+			var regex = new RegExp(emailTest); 
+
+			if (!regex.test(email)) {
+				document.getElementById("email").style.border = "1px solid #FF0000";
+				document.getElementById("ee").innerHTML = "Please Enter a Valid Email Address";
+				e = 1;
+			} else {
+			document.getElementById("email").style.border = "1px solid #5CFF26";
+			document.getElementById("ee").innerHTML = "";
+			e = 0;
+			}
+		}	
+	
+ function checkForm() {
+    if (n==1 || s==1 || e==1 || m==1) {
+		alert("Invalid Data Entered.");
+    } else {
+       alert("Thankyou ! Our Admin will Contact You Soon.");
+    }
+			
+}
+</script>
+<style>
+.err {
+	position:absolute;
+	background:white;
+	padding:4px;
+	top: 27px;
+	width:200px;
+	font-size:10px;
+}
+</style>
+<div class="men">
+	<div class="container">
+	  <div class="register">
+	  	<div class="contact_box">
+	      <div class="col-md-8 contact-top">
+			<h1 style="  margin-bottom: 2em;">
+	          Contact Form
+	        </h1>
+	        <div class="contact_grid">
+			  <form id="contact" method="post" action="#">
+					<div class="to">
+                     	<input type="text" id="name" class="text" placeholder="Name" onFocus="this.placeholder = '';" onBlur="if (this.placeholder == '') {this.placeholder = 'Name';}" onChange="namee()" required><span style="left: 0;" class="err" id="ne"></span>
+					 	<input type="email" id="email" class="email" placeholder="Email" onFocus="this.placeholder = '';" onBlur="if (this.placeholder == '') {this.placeholder = 'Email';}" style="margin-left:20px" onChange="emaill()" required><span style="left: 250px;" class="err" id="ee"></span>
+					 	<input type="text" id="sub" class="text" placeholder="Subject" onFocus="this.placeholder = '';" onBlur="if (this.placeholder == '') {this.placeholder = 'Subject';}" style="margin-left:20px" onChange="subb()" required><span class="err" style="left: 500px;" id="se"></span>
+					</div>
+					
+					<div class="text">
+	                 <textarea placeholder="Message:" id="msg" onFocus="this.placeholder = '';" onBlur="if (this.placeholder == '') {this.placeholder = 'Message';}" onChange="msgg()" required></textarea><span class="err" style="left: 11px;top: 253px;" id="me"></span>
+	                </div>
+	                <div class="form-submit">
+			          <input type="submit" id="ok" value="Submit" onClick="checkForm()">
+					</div>
+					<div class="clearfix"></div>
+               </form>
+           </div>
+       </div>
+       <div class="col-md-4 contact-top_right">
+		<h2>
+         Inquiry Branch
+        </h2>
+        <ul class="list">
+			<li>Phone:+92-322-2836508</li>
+			<li>Email:<a href="mailto:only4fcl@gmail.com">only4fcl@gmail.com</a></li>
+			<li>Address: II Chandrigar Road, Aptech Computer Education</li>
+		</ul>
+	   </div>
+	   <div class="clearfix"> </div>
+	  </div>
+	     <div class="map">
+		     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.397791144471!2d76.64866719910285!3d12.288976309758311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf6ffd9013e8fb%3A0xa4fb9eaae0db1e63!2sDurable+Furnitures!5e0!3m2!1sen!2s!4v1465996205281" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	     </div>
+		 </br>
+		 <h2 id="branches">
+		 Our Various Store Locations
+        </h2>
+      </div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<ul class="footer_nav">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="compare.html">Compare</a></li>
+		  <li><a href="feedback.html">Feedback</a></li>
+		  <li><a href="aboutus.html">About Us</a></li>
+		  <li><a href="contactus.html">Contact Us</a></li>
+		  <li><a href="#top">GO-TO-TOP</a></li>
+		</ul>
+		<p class="copy">Copyright&copy; 2016 Designed by Rayyan</p>
+	</div>
+</div>
+</body>
+</html>		
